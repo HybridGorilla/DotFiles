@@ -165,20 +165,31 @@ bindsym $mod+Shift+x exec "/usr/bin/i3lock-fancy"
 bar {
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	strip_workspace_numbers yes
+  	colors {
+    		separator #474747
+    		background #000000
+    		statusline #839496
+    		focused_workspace #ff0000 #ff0000 #fdf6e3
+    		active_workspace #f77502 #f77502 #fdf6e3
+    		inactive_workspace #002b36 #586e75 #002b36
+    		urgent_workspace #d33682 #d33682 #fdf6e3
+  }
 }
 
 
 
 gaps inner 9
-gaps outer 9
+gaps outer 2
 focus_follows_mouse no
 new_window 1pixel
 smart_gaps on
 
-exec --no-startup-id "/usr/bin/feh --bg-fill --randomize Pictures/Wallpapers"
+exec --no-startup-id "/usr/bin/feh --bg-fill --randomize Pictures/DualScreen/*"
 exec --no-startup-id "killall -q compton; compton --config ~/.config/i3/compton.conf"
 exec --no-startup-id "/home/jay/wonkyhand.sh"
 
 client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340 
 client.unfocused 	#0d1010 #212121 #d9d9d9 #0d1010 #063340 
-client.focused 		#0d1010 #212121 #d9d9d9 #0d1010 #063340 
+client.focused 		#0d1010 #212121 #d9d9d9 #0d1010 #063340
+
+ 
