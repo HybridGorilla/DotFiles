@@ -21,6 +21,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mzlogin/vim-markdown-toc'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'flazz/vim-colorschemes'
 
 autocmd FileType python setlocal completeopt-=preview
 
