@@ -18,14 +18,16 @@ autocmd BufWinEnter *.* silent loadview
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mzlogin/vim-markdown-toc'
+Plugin 'davidhalter/jedi-vim'
 
 autocmd FileType python setlocal completeopt-=preview
 
 
 " air-line
 let g:airline_powerline_fonts = 1
-let g:airline_theme='dark_minimal'
+let g:airline_theme='minimalist'
 
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
