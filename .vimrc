@@ -6,6 +6,10 @@ Plugin 'VundleVim/Vundle.vim'
 call vundle#end()            
 filetype plugin indent on    
 
+
+setlocal spell
+
+
 set number					 
 map - :E<CR>				 
 map <Leader>ns :vsplit enew<CR>
