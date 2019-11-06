@@ -8,6 +8,8 @@ filetype plugin indent on
 
 set number					 
 map - :E<CR>				 
+map <Leader>ns :vsplit enew<CR>
+map <Leader>nr :wincmd r<CR>
 syntax on					 
 color elflord
 
