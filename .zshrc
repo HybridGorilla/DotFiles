@@ -97,11 +97,20 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias Kali="vboxmanage startvm 'Kali Linux'"
 alias burpsuite="java -jar ~/Documents/burpsuite_pro_v2.1.04.jar"
 alias devDesk="bash ~/devDesk.sh"
 alias devServ="bash ~/devServ.sh"
 alias centOS="bash ~/centOS.sh"
 alias changeWP="/usr/bin/feh --randomize --bg-fill ~/Pictures/Wallpapers/*"
 alias dualScreenWP="/usr/bin/feh --randomize --no-xinerama --bg-scale ~/Pictures/DualScreen/*"
+alias USBD="cd /media/jay/SECURITY"
+alias fuzzy='vim $(fzf -m)'
+alias getLinks="cat /media/jay/SECURITY/links.txt"
+alias usb_in="/home/jay/usbmount.sh"
+alias usb_out="/home/jay/Documents/linux/linux64/dtvp_logout"
+alias fuzzy="fzf -m --ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
+
+export USBD="/media/jay/SECURITY/"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
