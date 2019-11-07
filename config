@@ -44,13 +44,13 @@ bindsym $mod+d exec "rofi -modi 'run' -show run"
 
 # define names for workspaces
 set $ws1    "1:   Terminal "
-set $ws2    "2:   Code "
+set $ws2    "2:   Burp "
 set $ws3    "3:   Firefox "
 set $ws4    "4:   Files "
 set $ws5    "5:   Documents "
 set $ws6    "6:   Spotify "
 set $ws7    "7:   Design "
-set $ws8    "8:   Chat "
+set $ws8    "8: 攻撃  Kali "
 set $ws9    "9:   General "
 set $ws10   "10:   Settings "
 
@@ -184,9 +184,9 @@ focus_follows_mouse no
 new_window 1pixel
 smart_gaps on
 
+exec --no-startup-id "mkdir /tmp/vim"
 exec --no-startup-id "/usr/bin/feh --bg-fill --randomize Pictures/DualScreen/*"
 exec --no-startup-id "killall -q compton; compton --config ~/.config/i3/compton.conf"
-exec --no-startup-id "/home/jay/wonkyhand.sh"
 
 client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340 
 client.unfocused 	#0d1010 #212121 #d9d9d9 #0d1010 #063340 

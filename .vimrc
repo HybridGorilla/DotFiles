@@ -8,7 +8,9 @@ filetype plugin indent on
 
 
 setlocal spell
-
+set backup
+set backupdir=/tmp/vim
+set dir=/tmp/vim
 
 set number					 
 map - :E<CR>				 
