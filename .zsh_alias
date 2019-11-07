@@ -1,0 +1,30 @@
+# Encrypted USB Stick
+alias usbin='/home/gorilla/Documents/Vault/dtvp_login'
+alias usbout='/home/gorilla/Documents/Vault/dtvp_logout'
+
+# Virtual Machines
+alias kali='vboxmanage startvm "Kali"'
+alias protostar='vboxmanage startvm --type headless "Protostar"'
+alias exploitDev='vboxmanage startvm --type headless "ExploitDevBox"'
+
+# Working Directory
+alias HackTheBox='cd /home/gorilla/Documents/the-bible/IMPORTANTE/HackTheBox'
+
+# feh Shorthand
+alias pixz='feh -rdq.B black '
+
+# Start wired network connection
+alias wiredUp='systemctl start dhcpcd'
+
+# Various shortcuts
+alias safeDL='~/Documents/the-bible/scripts/safedl.sh'
+alias burpsuite='java -jar ~/Downloads/burpsuite_community_v1.7.36.jar'
+alias pwsh=/opt/microsoft/powershell/6/pwsh
+alias NSFWallpaper='feh --randomize --bg-fill -r /home/gorilla/Downloads/Wallpapers/NSFW'
+alias SFWallpaper='feh --randomize --bg-fill -r /home/gorilla/Downloads/Wallpapers/SFW'
+
+# PERFECT VIM
+alias pvim='/home/gorilla/GorillaNotes/RUN.sh'
+
+# FZF Sexiness
+alias fuzzy="fzf -m --ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
