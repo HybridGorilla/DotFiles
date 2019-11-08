@@ -6,8 +6,8 @@ Plugin 'VundleVim/Vundle.vim'
 call vundle#end()            
 filetype plugin indent on    
 
+autocmd FileType markdown setlocal spell
 
-setlocal spell
 set backup
 set backupdir=/tmp/vim
 set dir=/tmp/vim
