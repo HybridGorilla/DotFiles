@@ -1,0 +1,29 @@
+background_opacity 0.85
+ 
+background #1B2132
+foreground #FFFFFF
+ 
+cursor #FBE883
+ 
+selection_background #E79171
+selection_foreground #2094BF
+color0  #2A344F
+color8  #262E46
+ 
+color1  #E27850
+color9  #E9997C
+
+color2  #DF8640
+color10 #E7A571
+
+color3  #FFFFFF
+color11 #FFFFFF
+
+color4  #66A2AA
+color12 #77ADB4
+
+color5  #D2FB83
+color13 #EDFCA8
+
+color6  #A9AC1D
+color14 #C1C521
