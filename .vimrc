@@ -17,7 +17,6 @@ map - :E<CR>
 map <Leader>ns :vsplit enew<CR>
 map <Leader>nr :wincmd r<CR>
 syntax on					 
-color elflord
 
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree()) | q | endif
@@ -28,7 +27,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mzlogin/vim-markdown-toc'
-Plugin 'davidhalter/jedi-vim'
 Plugin 'flazz/vim-colorschemes'
 
 autocmd FileType python setlocal completeopt-=preview
@@ -64,3 +62,5 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
+
+colorscheme tangoX
