@@ -125,13 +125,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
 # Custom Configurations
 
 
 ## Make vim tmp folder
 if [ ! -d /tmp/vim ]; then
-	mkdir -p /tmp/vim;
+	        mkdir -p /tmp/vim;
 fi
 
 
@@ -147,13 +146,16 @@ bind '"\eOB": history-search-forward'
 
 
 ## Custom Aliases
-alias ffuf='/home/bulldops/Tools/ffuf/ffuf'
-alias nullscan='python3 /home/bulldops/Tools/nullinux/nullinux.py' 
 alias preview="fzf --preview 'bat --style=numbers --color=always {} | head -500'"
-alias automata="/home/bulldops/Dropbox/automata.sh"
-alias burpro="java -jar /home/bulldops/Downloads/burpsuite_pro_v2020.5.jar"
-
 alias cls="clear"
 alias l="ls -l"
 alias ll="ls -la"
 alias nano="/usr/bin/vim"
+alias bat="/usr/bin/bat --theme 'Monokai Extended Origin'"
+alias vp='vim $(preview)'
+
+export GOROOT=/usr/lib/go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH=/root/tools:$PATH
+
