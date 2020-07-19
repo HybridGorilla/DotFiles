@@ -153,6 +153,7 @@ alias ll="ls -la"
 alias nano="/usr/bin/vim"
 alias bat="/usr/bin/bat --theme 'Monokai Extended Origin'"
 alias vp='vim $(preview)'
+alias automata="/root/automata.sh"
 
 export GOROOT=/usr/lib/go
 export GOPATH=$HOME/go
